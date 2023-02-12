@@ -7,12 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "test": "vitest src/",
-    "coverage": "vitest src/ run --coverage"
+    "prepare": "husky install"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
+    "@next/font": "^13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
@@ -25,19 +23,13 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
-    "@vitejs/plugin-react": "^3.1.0",
-    "babel-plugin-styled-components": "^2.0.7",
     "eslint-config-prettier": "^8.6.0",
     "happy-dom": "^8.2.6",
     "husky": "^8.0.3",
     "jest-styled-components": "^7.1.1",
-    "jsdom": "^21.1.0",
     "lint-staged": "^13.1.1",
-    "prettier": "^2.8.4",
-    "vitest": "^0.28.4"
+    "prettier": "^2.8.4"
   }
 }

@@ -1,7 +1,12 @@
+import { Heading } from '@/components/Heading'
+import * as S from '@/layout/containers'
+
 export default function Home() {
   return (
     <main>
-      <h1>Learn about afkasdj</h1>
+      <S.Container>
+        <Heading />
+      </S.Container>
     </main>
   )
 }
