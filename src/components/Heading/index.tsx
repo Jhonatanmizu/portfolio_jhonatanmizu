@@ -1,5 +1,9 @@
 import * as S from './styles'
 
-export const Heading = () => {
-  return <S.Heading>Ola mundo</S.Heading>
+interface Props {
+  title: string
+}
+
+export const Heading = ({ title }: Props) => {
+  return <S.Heading>{title}</S.Heading>
 }
