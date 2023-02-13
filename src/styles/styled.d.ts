@@ -7,7 +7,12 @@ interface IPalette {
 declare module 'styled-components' {
   export interface DefaultTheme {
     borderRadius: string[]
-    padding: string[]
+    padding: {
+      xs: string
+      sm: string
+      md: string
+      lg: string
+    }
     palette: {
       common: {
         black: string

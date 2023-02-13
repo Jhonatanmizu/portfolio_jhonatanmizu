@@ -2,7 +2,7 @@
 import { DefaultTheme } from 'styled-components'
 export const defaultTheme: DefaultTheme = {
   borderRadius: ['.5rem', '1rem'],
-  padding: ['.8rem', '1.6rem', '2.4rem', '3.2rem'],
+  padding: { xs: '.8rem', sm: '1.6rem', md: '2.4rem', lg: '3.2rem' },
   palette: {
     common: {
       black: '#222831',
