@@ -12,6 +12,7 @@ declare module 'styled-components' {
       sm: string
       md: string
       lg: string
+      xl: string
     }
     palette: {
       common: {

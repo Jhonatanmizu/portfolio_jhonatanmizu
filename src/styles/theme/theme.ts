@@ -2,18 +2,24 @@
 import { DefaultTheme } from 'styled-components'
 export const defaultTheme: DefaultTheme = {
   borderRadius: ['.5rem', '1rem'],
-  padding: { xs: '.8rem', sm: '1.6rem', md: '2.4rem', lg: '3.2rem' },
+  padding: {
+    xs: '.8rem',
+    sm: '1.6rem',
+    md: '2.4rem',
+    lg: '3.2rem',
+    xl: '6.4rem'
+  },
   palette: {
     common: {
       black: '#222831',
       white: '#ffffff'
     },
     primary: {
-      main: '#1E1926',
+      main: '#212538',
       contrastText: '#ffffff'
     },
     secondary: {
-      main: '#998AB5',
+      main: '#82aaff',
       contrastText: '#ffffff'
     }
   },
