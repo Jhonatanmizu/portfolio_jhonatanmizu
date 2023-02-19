@@ -20,6 +20,7 @@ export const Bar = styled.div<LayoutProps>`
   width: 3.6rem;
   height: 0.5rem;
   background-color: ${({ theme }) => theme.palette.common.white};
+
   margin: 0.6rem 0;
   transition: 0.4s;
   opacity: ${(props) =>
